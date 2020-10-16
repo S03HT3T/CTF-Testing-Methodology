@@ -12,8 +12,8 @@
  - ***find common directory(eg- admin.php,login.php)***
 
 ## 5. Find search box or parameter which you can control.
- - ***If you found search box,you can test common attacing methods(eg- sql injection,ssti,xss cookie stealing)***
- - ***else you found parameter , you can test other methons(eg - lfi,rfi,rce)***
+ - ***If you found search box,you can test common attacing methods(eg- sql injection,SSTI,xss cookie stealing)***
+ - ***else you found parameter , you can test other methods(eg - LFI,RFI,RCE)***
 
 ## 6. Try to understand challenge's website processes.
  - ***should find what technology the challenge's website used.***
