@@ -6,6 +6,7 @@
 ## 2. Check robots.txt .
 
 ## 3. Check useragents.
+ - ***If you need to bruteforce useragents,[use this](https://github.com/JackStouffer/Violent-Python/blob/master/wordlist/fuzzdb/Discovery/PredictableRes/UserAgents.fuzz.txt)***
 
 ## 4. You should bruteforce the directory.(use gobuster or ffuf)
  - ***find common directory(eg- admin.php,login.php)***
@@ -19,4 +20,6 @@
  - ***intercept all requests of challenge's webiste and look carefully each requests and responce.(such as - data,header,url,cookie)***
 
 ## 7. If the challenge give you login panel.
- - ***At first you should try login byass***
+ - ***At first you should try login byass([use this](https://github.com/S03HT3T/CTF-Testing-Methodology/blob/main/adminbypass.txt))***
+ - ***And second intercept the login requests and try to understand how login request check credentials.***
+ - ***And third you should check cookie and play with cookie(eg - base64,jwt,flask session).***
