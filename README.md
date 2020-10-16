@@ -17,9 +17,12 @@
 
 ## 6. Try to understand challenge's website processes.
  - ***should find what technology the challenge's website used.***
- - ***intercept all requests of challenge's webiste and look carefully each requests and responce.(such as - data,header,url,cookie)***
+ - ***intercept all requests of challenge's website and look carefully each requests and responce.(such as - data,header,url,cookie)***
 
 ## 7. If the challenge give you login panel.
- - ***At first you should try login byass([use this](https://github.com/S03HT3T/CTF-Testing-Methodology/blob/main/adminbypass.txt))***
+ - ***At first try to login with some weak password(eg-admin:admin,admin:pass) and you should try login byass([use this](https://github.com/S03HT3T/CTF-Testing-Methodology/blob/main/adminbypass.txt))***
  - ***And second intercept the login requests and try to understand how login request check credentials.***
  - ***And third you should check cookie and play with cookie(eg - base64,jwt,flask session).***
+
+### 8. Try with some common methods.
+ - ***I mean dig,git,etc...***
