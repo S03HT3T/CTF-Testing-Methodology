@@ -1,7 +1,7 @@
 # **CTF-Testing-Methodology**
 
 ## 1. Always check source code.(Yes I mean ALWAYS
- - ***Look carefully the source code and check all of css file,js file)
+ - ***Look carefully the source code and check all of css file,js file)***
 
 ## 2. Check robots.txt .
 
